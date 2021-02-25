@@ -120,18 +120,14 @@
 
 /* ESERCIZIO 11 */
 
-/* .ex-11-icons{
-    animation: low-rotate 2s;
-} */
-
 .ex-11-icon:hover{
-    animation: low-rotate 2s linear;
+    animation: slow-rotate 2s linear;
     
 }
 
 /* Animation LOW-ROTATE */
 
-@keyframes low-rotate{
+@keyframes slow-rotate{
     0%{
         transform: rotate(0);
     }
@@ -142,6 +138,47 @@
 
     100%{
         transform: rotate(0);
+    }
+}
+
+/* ESERCIZIO 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: movetop 2s linear forwards;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movebottom 2s linear forwards;
+}
+
+
+/* Animation movetop */
+@keyframes movetop{
+    0%{
+        left:10%
+    }
+
+    50%{
+        left: 70%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+/* Animation movebottom */
+@keyframes movebottom{
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 70%;
+    }
+
+    100%{
+        right: 20%
     }
 }
 
