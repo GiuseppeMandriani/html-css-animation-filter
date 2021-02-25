@@ -32,3 +32,53 @@
     border-radius: 100%;
     /* Capire differenza con 50% */
 }
+
+/* ESERCIZIO 4 */
+
+.ex-4-square{
+    transition: 1s;
+}
+
+/* Hover on */
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* ESERCIZIO 5 */
+
+.ex-5-square{
+    transition:1s;
+}
+
+/* Hover on */
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+/* Active on */
+.ex-5-square:active{
+    transform: scale(.5);
+}
+
+/* ESERCIZIO 6 */
+
+/* Hover on */
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+/* ESERCIZIO 7 */
+
+.ex-7-img{
+    transition: 2s;
+}
+
+/* Hover on */
+.ex-7-img:hover{
+    filter:grayscale(.6) sepia(.5)
+}
+
+
+
+
