@@ -1,0 +1,34 @@
+/* ESERCIZIO 1 */
+
+.ex-1-square{
+    transition: 2s;
+}
+
+/* Hover on */
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* ESERCIZIO 2 */
+
+.ex-2-square{
+    transition: 2s;
+
+}
+/* Active on */
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* ESERCIZIO 3 */
+
+.ex-3-square{
+    transition: 0.5s;
+}
+
+/* Hover on */
+.ex-3-square:hover{
+    border-radius: 100%;
+    /* Capire differenza con 50% */
+}
